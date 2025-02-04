@@ -1,23 +1,13 @@
-Description: Deploy a containerized application using Kubernetes and manage the infrastructure using Terraform.
+# GCP GKE Terraform Project
 
-Tech Stack
-Terraform (Infrastructure provisioning)
-Kubernetes (Container orchestration)
-Helm (Optional: Kubernetes package management)
-Docker (Containerization)
-CI/CD (GitHub Actions or GitLab CI/CD)
-Cloud Provider (AWS/GCP/Azure)
-Monitoring (Prometheus & Grafana)
+This project provisions a **GKE cluster** on Google Cloud using **Terraform**. It includes:
+- **VPC and Subnet creation**
+- **IAM Role bindings**
+- **Kubernetes Cluster & Node Pool**
 
-📂 gcp-gke-terraform
-├── 📜 .gitignore
-├── 📜 README.md
-├── 📂 terraform/
-│   ├── 📜 main.tf
-│   ├── 📜 variables.tf
-│   ├── 📜 outputs.tf
-│   ├── 📜 provider.tf
-├── 📂 scripts/
-│   ├── 📜 deploy.sh
-│   ├── 📜 destroy.sh
-└── 📜 LICENSE
+## 🚀 Setup Instructions
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/yourusername/gcp-gke-terraform.git
+   cd gcp-gke-terraform
